@@ -23,7 +23,7 @@ This project demonstrates basic music player functionality with playlists and a 
 /CSS       -> Stylesheets
 /icons     -> Icons
 /scipts    -> JavaScript files  
-/SVG       -> Images, icons, and audio files  
+/SVG       -> Svgs
 index.html -> Main entry file  
 ```
 
