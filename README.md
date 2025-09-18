@@ -19,9 +19,11 @@ This project demonstrates basic music player functionality with playlists and a 
 ## 📂 Folder Structure
 
 ```plaintext
-/css       -> Stylesheets  
-/js        -> JavaScript files  
-/assets    -> Images, icons, and audio files  
+/Albums    -> Songs of the singer
+/CSS       -> Stylesheets
+/icons     -> Icons
+/scipts    -> JavaScript files  
+/SVG       -> Images, icons, and audio files  
 index.html -> Main entry file  
 ```
 
