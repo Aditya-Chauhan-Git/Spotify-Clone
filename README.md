@@ -33,7 +33,7 @@ index.html -> Main entry file
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Aditya-Chauhan-Git/spotify-clone.git
+   git clone https://github.com/Aditya-Chauhan-Git/Spotify-Clone.git
    ```
 
 2. **Open the project**
