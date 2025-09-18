@@ -1,0 +1,59 @@
+.flex{
+    display: flex;
+}
+
+.border{
+    border: 2px solid yellow;
+}
+
+.filter{
+    filter: invert(1);
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* No background for the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white color for the thumb */
+    border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.8); /* Slightly more opaque on hover */
+}
+
+html {
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent; /* Thumb color and transparent track color */
+    scrollbar-width: thin; /* Width of the scrollbar */
+}
+
+::-ms-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+::-ms-scrollbar-track {
+    background: transparent; /* No background for the scrollbar track */
+}
+
+::-ms-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white color for the thumb */
+    border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-ms-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.8); /* Slightly more opaque on hover */
+}

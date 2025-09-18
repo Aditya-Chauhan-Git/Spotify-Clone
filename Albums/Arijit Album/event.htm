@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border: 2px solid;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p class="clickable">this para</p> -->
+    <div class="clickable" id="lol1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quaerat, asperiores dolor neque similique iusto dignissimos obcaecati nostrum unde ducimus architecto perspiciatis iure.</div>
+    <div class="clickable" id="lol2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, at similique!</div>
+    <div class="clickable" id="lol3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eius sapiente adipisci corrupti nam rem quae earum cum delectus, asperiores quia.</div>
+    <script>
+        let clickable=document.querySelectorAll('.clickable')
+        clickable.forEach((element) => {
+            element.addEventListener('click',(event) => {
+              let clicked=event.target
+              console.log(clicked);
+              console.log(clicked.className);
+              console.log(clicked.id);
+               
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+    <!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./CSS/Spotify clone.css">
+    <link rel="stylesheet" href="./CSS/utility.css">
+    <link rel="icon" href="./icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="top-left mnp">
+                <div class="logo flex">
+
+                    <a href=""><img src="./SVG/spotify_logo.svg" alt="logo" class="filter logo1"></a>
+                    <a href=""><img src="./SVG/home_logo_spotify.svg" width="20px" alt="logo"
+                            class="filter logo2"><span>Home</span></a>
+                    <a href=""><img src="./SVG/search_logo_spotify.svg" width="20px" alt="logo"
+                            class="filter logo3"><span>Search</span></a>
+                    
+                </div>
+                <img src="./SVG/cross.svg" class="filter cross" alt="">
+            </div>
+
+            <div class="bottom-left mnp">
+                <div class="top">
+                    <a href="" class="a lib"><img src="./SVG/library_logo_spotify.svg"> <span>Your Library</span></a>
+                    <a href="" class="plus lib"><img src="./SVG/plus.svg" alt=""></a>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <div class="songCard">
+                            <!-- <img src="./SVG/music.svg" class="filter musicIcon" alt="music" srcset=""> -->
+                            <div style="flex-direction: column;">
+                                <li >Click on an album to play its songs</li>
+                            </div>
+
+                            <!-- <div class="playBtn">
+                                <span>Play</span><img src="./SVG/play.svg" alt="play" class="filter">
+                            </div> -->
+                        </div>
+                    </ul>
+                </div>
+                <footer class="bFoot">
+                    <ul>
+                        <li><a href="" rel="noopener noreferrer">Legal</a></li>
+                        <li><a href="" rel="noopener noreferrer">PrivacyPolicy</a></li>
+                        <li><a href="" rel="noopener noreferrer">Cookies</a></li>
+                        <li><a href="" rel="noopener noreferrer">AboutAds</a></li>
+                        <li><a href="" rel="noopener noreferrer">Accessiblity</a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        <div class="right mnp" style="padding: 0px;">
+            <nav class="flex">
+                <div class="svg">
+                    <img src="./SVG/hamburger.svg" class="filter ham" alt="">
+                    <img src="./SVG/left arrow.svg" alt="" class="filter ar">
+                    <img src="./SVG/right arrow.svg" alt="" class="filter ar">
+                </div>
+                <div class="btn">
+                    <a href="">Sign Up</a>
+                    <a href=""><button>Log in</button></a>
+                </div>
+            </nav>
+            <section class="play"> 
+                <div class="pArt">
+                    <h2>Popular Artists</h2>
+                    <div class="cont flex">
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="img"
+                                class="aImg">
+                            <img src="./SVG/btn.svg" alt="" class="btnSvg">
+                            <h3 class="title">Arijit</h3>
+                            <p class="artistDesc">Artist</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="img"
+                                class="aImg">
+                            <img src="./SVG/btn.svg" alt="" class="btnSvg">
+                            <h3 class="title">Pritam</h3>
+                            <p class="artistDesc">Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="songBar" style="padding-right: 4px;">
+            <div class="songDetails">
+                <div class="songBarName">
+                    
+                </div>
+                <div class="songBarArtist">
+                    
+                </div>
+            </div>
+            <div class="songBarBtns">
+                <img src="./SVG/reverse.svg" alt="btn" class="filter songBarBtn pointer reverse forre">
+                <img src="./SVG/pause.svg" alt="btn" class="filter songBarBtn pauseBtn2">
+                <img src="./SVG/forward.svg" alt="btn" class="filter songBarBtn pointer forward forre">
+                <img src="./SVG/down_arrow.svg" alt="arrow" class="filter dArrow pointer">
+                <div class="slideBar pointer">
+                    <div class="slider pointer">
+                        <div class="ball pointer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="songDurationAndVolume">
+                <div class="songDuration">
+
+                </div>
+                <div class="volume filter">
+                    <img src="./SVG/volume.svg" alt="volume" class="vol level">
+                    <div class="seekbar">
+                        <input type="range" name="volume" class="seek">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
